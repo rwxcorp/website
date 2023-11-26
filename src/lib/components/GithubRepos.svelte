@@ -18,6 +18,11 @@
   onMount(fetchGithubRepos);
 </script>
 
+<svelte:head>
+  <link rel="preconnect" crossorigin="anonymous" href="https://api.github.com/" />
+  <link rel="dns-prefetch" crossorigin="anonymous" href="https://api.github.com" />
+</svelte:head>
+
 <div class="text-2xl mt-5 mb-5">
   <span class="border-b-4 border-orange-600">Open source projects</span>
 </div>
