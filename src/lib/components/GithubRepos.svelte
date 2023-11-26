@@ -31,8 +31,8 @@
   {#each $repos as repo (repo.id)}
     <li class="rounded border-2 dark:border-none dark:bg-zinc-900 p-5">
       <a
-        aria-label={repo.name}
-        class="text-[20px] text-orange-600 hover:text-orange-900 transition duration-300 ease-in-out"
+        aria-label={repo.full_name}
+        class="text-[20px] text-orange-900 dark:text-orange-600 hover:text-orange-950 transition duration-300 ease-in-out"
         href={repo.html_url}
         target="_blank"
       >
