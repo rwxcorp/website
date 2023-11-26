@@ -1,1 +1,5 @@
-<h1>Hello World</h1>
+<script>
+  import SocialMedia from '$lib/components/SocialMedia.svelte';
+</script>
+
+<SocialMedia />
