@@ -14,4 +14,6 @@
   <meta property="og:description" content="Explore RWXCorp open-source projects." />
 </svelte:head>
 
-<slot />
+<div class="container mx-auto p-4">
+  <slot />
+</div>
